@@ -1,7 +1,7 @@
 header{
 
 	background-color: #ffffff;
-	border-color: #cccccc;
+	border:1px solid #cccccc;
 	padding: 1px;
 }
 
@@ -13,7 +13,7 @@ header{
 	width: 225px;
 	text-align: center;
 	margin: 0px;
-	margin-left: 210px;
+	margin-left: 230px;
 	padding: 5px;
 }
 
@@ -27,11 +27,12 @@ header{
 
 nav{
 	
-	list-style-type: none;
+	text-decoration: none;
 	float: right;
 	position: absolute;
-	top: 50px;
+	top: 30px;
 	right: 215px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 img{
@@ -49,8 +50,8 @@ body{
 	color: #777777;
 	margin: auto;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	background-color: grey;
-	
+	background-image: url("../images/vintage-concrete.png");
+
 }
 
 div{
@@ -62,15 +63,17 @@ div{
 section{
 
 	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 	background-color: #ffffff;
-	border-color: #dddddd;
+	border: 1px solid #dddddd;
 	width: 650px;
-	padding: 10px;
+	height: 573px;
+	padding: 20px;
 }
 
 .p1{
-
+	
+	font-weight: bold;
 	line-height: 200%
 }
 
@@ -83,7 +86,7 @@ aside{
 	height: 200px;
 	float: right;
 	position: absolute;
-	top: 110px;
+	top: 115px;
 	right: 200px;
 	margin-left: 35px;
 
@@ -100,7 +103,7 @@ footer{
 	padding: 25px;
 	margin-bottom: 0px;
 	color: white;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 
 #linkedin{
@@ -125,4 +128,60 @@ footer{
 ul{
 
 	align-content: left;
+}
+
+<!--tHIS IS THE CSS FOR CONTACT -->
+
+#container{
+
+	padding: 200px;
+	width:1000px;
+}
+
+#submit{
+
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px;
+	margin: 0px;
+	width: 125px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#hobbies{
+
+	text-align: center;
+	position: absolute;
+	top: 610px;
+	padding: 3px;
+	margin: 9px;
+	width: 195px;
+	color: white;
+	background-color: #4aaaa5;
+}
+
+#resume{
+
+	text-align: center;
+	position: absolute;
+	top: 400px;
+	padding: 3px;
+	margin: 9px;
+	width: 195px;
+	color: white;
+	background-color: #4aaaa5;
+
+}
+
+#workexperience{
+	
+	position: absolute;
+	top: 400px;
+	left: 483px;
+	padding: 3px;
+	margin: 9px;
+	width: 195px;
+	color: white;
+	background-color: #4aaaa5;
 }
